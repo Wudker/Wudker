@@ -1,4 +1,6 @@
-## Portfolio
+Mechatronics engineer focused on embedded systems, robotics, PCB design and low-power electronic devices.
+
+I build complete prototypes: from mechanical design and electronics, through firmware, to testing and documentation.
 
 <p align="center">
   <a href="Portfolio_EN.pdf">
