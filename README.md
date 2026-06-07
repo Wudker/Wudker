@@ -1,6 +1,9 @@
-Mechatronics engineer focused on embedded systems, robotics, PCB design and low-power electronic devices.
-
-I build complete prototypes: from mechanical design and electronics, through firmware, to testing and documentation.
+Hello 👋
+I encourage you to check out my projects. 
+For example:
+- A 6-degree-of-freedom robot
+- A device for controlling music
+- A power bank with active sun-tracking capabilities {work in progress}
 
 <p align="center">
   <a href="Portfolio_EN.pdf">
