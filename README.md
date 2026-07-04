@@ -22,17 +22,17 @@ These projects are described in more detail in my portfolio PDF.
 ## Portfolio preview
 
 <p align="center">
-  <a href="Portfolio_EN.pdf">
+  <a href="Portfolio.md">
     <img src="Portfolio/Page1.png" width="30%" alt="6DOF manipulator portfolio preview">
   </a>
-  <a href="Portfolio_EN.pdf">
+  <a href="Portfolio.md">
     <img src="Portfolio/Page2.png" width="30%" alt="Clickfy PCB portfolio preview">
   </a>
-  <a href="Portfolio_EN.pdf">
+  <a href="Portfolio.md">
     <img src="Portfolio/Page3.png" width="30%" alt="Weather station portfolio preview">
   </a>
 </p>
 
 <p align="center">
-  <a href="Portfolio_EN.pdf"><b>Open full portfolio PDF</b></a>
+  <a href="Portfolio.mdf"><b>Open full portfolio PDF</b></a>
 </p>
