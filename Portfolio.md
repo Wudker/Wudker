@@ -136,7 +136,7 @@ I also designed the PCB, developed the software responsible for controlling the 
 ## Scrapper – Voice Mini AI Assistant
 
 <p align="center">
-  <img src="img/scrapper.png" alt="Scrapper Voice Mini AI Assistant" width="500">
+  <img src="img/Scrapper.png" alt="Scrapper Voice Mini AI Assistant" width="500">
 </p>
 
 ### Project description
@@ -170,8 +170,7 @@ I have already prepared a remote control and a working module for remotely turni
 `RX-2B` `TX-2B` `Control electronics` `Remote control` `Prototyping` `Home automation` `Integration of simple actuator circuits`
 
 ### Status 🟡 In progress
-
-The project is under development, It turned out that the connectivity is less stable than that of an average Wi-Fi microcontroller (e.g., ESP32), even though the price remains roughly the same.
+`The project is under development, It turned out that the connectivity is less stable than that of an average Wi-Fi microcontroller (e.g., ESP32), even though the price remains roughly the same.`
 ---
 
 ## Main Areas of Interest
