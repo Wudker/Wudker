@@ -185,9 +185,3 @@ I have already prepared a remote control and a working module for remotely turni
 - Low-power devices
 - IoT and wireless communication
 ---
-
----
-
-## Contact
-
-GitHub: [Wudker](https://github.com/Wudker)
