@@ -34,5 +34,5 @@ These projects are described in more detail in my portfolio PDF.
 </p>
 
 <p align="center">
-  <a href="Portfolio.mdf"><b>Open full portfolio PDF</b></a>
+  <a href="Portfolio.md"><b>Open full portfolio PDF</b></a>
 </p>
