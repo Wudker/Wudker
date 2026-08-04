@@ -18,8 +18,8 @@ These projects are described in more detail in my portfolio PDF.
 
 | Project | Description | Technologies |
 |---|---|---|
-| [Robotic dog](https://github.com/Wudker/Hot_dog) | Work-in-progress |
-| [Labolatory station](https://github.com/Wudker/Modular_lab_station) | Work-in-progress |
+| [Robotic dog](https://github.com/Wudker/Hot_dog) | Masters degreee thesis, Work-in-progress |
+| [Labolatory station](https://github.com/Wudker/Modular_lab_station) | Work-in-progress. A compact laboratory power supply. Its modular design allows for future expansion to include the generation of symmetrical voltages and waveforms. |
 
 ## Portfolio preview
 
