@@ -1,3 +1,13 @@
+# Bartłomiej Dusza – Technical Portfolio
+
+A selection of engineering projects focused on **mechatronics**, **embedded systems**, **electronics**, **robotics** and **PCB design**.
+
+My projects usually combine several engineering areas — from concept development and calculations, through mechanical and electronic design, to embedded software and physical prototyping.
+
+---
+
+# Selected Projects
+
 ## 6-DOF Manipulator – Engineering Thesis
 
 <p align="center">
@@ -20,57 +30,30 @@ I developed the forward and inverse kinematics, mechanical design requirements, 
 
 ---
 
-## Hot_dog – Quadruped Robot
+## Modular Laboratory Power Supply
 
 <p align="center">
-  <img src="img/Hot_dog.jpg" alt="Hot_dog Quadruped Robot" width="500">
+  <img src="img/LabStation.png" alt="Modular Laboratory Power Supply" width="500">
 </p>
 
 ### Project description
 
-A quadruped robotic platform currently being developed as part of my master's thesis.
+A compact adjustable laboratory power supply developed as the first module of a larger modular electronics workstation.
 
-The project focuses on the design of a lightweight walking robot with independently controlled legs and a custom parallel leg mechanism.
+The project combines power electronics with a custom mechanical enclosure designed for convenient bench use. The current power-supply module has been designed and completed as a standalone device.
 
-Current development includes mechanical design, inverse kinematics, servo control and validation of individual leg prototypes before integration into a complete four-legged platform.
+The mechanical concept was created with future expansion in mind, allowing additional laboratory modules to use a common design language and form factor.
 
-The software calculates the required joint positions from Cartesian target coordinates and controls the servos responsible for reproducing the calculated leg trajectory.
-
-### Technologies
-
-`ESP32` `C/C++` `Inverse kinematics` `Servo control` `Robotics` `Parallel mechanisms` `CAD` `3D printing` `Mechanical prototyping`
-
-### Status 🟡 Active development
-
-A functional leg prototype and the first full-body mechanical prototype have been developed.
-Current work focuses on multi-leg coordination, gait generation and further mechanical refinement.
-
----
-
-## Solarbank – Solar Power Bank
-
-<p align="center">
-  <img src="img/Solarbank.png" alt="Solarbank PCB" width="500">
-</p>
-
-### Project description
-
-A solar-powered power bank combining photovoltaic energy harvesting, battery charging, power conversion and embedded control on a custom PCB.
-
-The system is designed around an STM32 microcontroller that supervises the power-management process, including photovoltaic input monitoring, battery state estimation and control of charging parameters.
-
-The project also includes dedicated power-conversion stages for solar input and regulated USB output.
-
-One of the main development goals is implementation of microcontroller-assisted MPPT control in order to improve the utilization of the connected photovoltaic panel.
+Planned future modules include a **symmetrical voltage source** and **signal generator**, extending the completed power supply into a larger modular laboratory station.
 
 ### Technologies
 
-`STM32U031` `C/C++` `STM32CubeMX` `Power electronics` `MPPT` `Li-Ion battery` `Battery management` `DC/DC converters` `KiCad` `Custom PCB`
+`Power electronics` `DC/DC conversion` `CAD` `3D printing` `Mechanical design` `Prototyping` `Laboratory equipment`
 
-### Status 🟡 Active development
+### Status 🟢 Completed
 
-The schematic and PCB layout have been developed and refined through several design iterations.
-Firmware development and hardware validation are currently in progress.
+The laboratory power-supply module is complete.
+Future development may expand the platform with additional laboratory instruments.
 
 ---
 
@@ -88,16 +71,16 @@ The device provides dedicated controls for basic media functions such as play/pa
 
 I designed the custom PCB, selected the electronic components and developed the firmware responsible for BLE communication, battery monitoring and low-power operation.
 
-A major development goal has been reducing wake-up and reconnection time while maintaining low power consumption.
+The final device integrates the electronics, battery and physical controls into a compact portable enclosure and operates as a standard BLE multimedia controller with compatible phones and computers.
 
 ### Technologies
 
 `ESP32-C3` `C/C++` `ESP-IDF` `Bluetooth Low Energy` `BLE HID` `Li-Po battery` `ADC battery monitoring` `PCB design` `Low-power operation`
 
-### Status 🟡 Working prototype / firmware development
+### Status 🟢 Completed and functional
 
-A complete working prototype has been built.
-Current development focuses on power optimization and reducing BLE reconnection time.
+A working hardware prototype and firmware have been completed and tested.
+The device successfully operates as a BLE multimedia remote.
 
 ---
 
@@ -114,9 +97,7 @@ S.M.U. is a custom electronic meter designed for measuring resistance, capacitan
 Different measurement methods are used depending on the selected component type.
 
 Resistance is determined using voltage-divider measurements with reference resistors.
-
 Capacitance is measured using the RC time constant.
-
 Inductance is measured by exciting an LC circuit and analyzing its oscillation frequency.
 
 I developed the measurement algorithms, designed the PCB, prepared the firmware and designed the enclosure of the device.
@@ -126,35 +107,6 @@ I developed the measurement algorithms, designed the PCB, prepared the firmware 
 `Raspberry Pi Pico` `C/C++` `ADC` `Comparator` `RC measurements` `LC resonance` `Analog electronics` `PCB design` `Measurements` `3D printing`
 
 ### Status 🟢 Completed prototype
-
----
-
-## SmartRoom – MQTT Room Automation System
-
-<p align="center">
-  <img src="img/SmartRoom.jpg" alt="SmartRoom Automation System" width="500">
-</p>
-
-### Project description
-
-A modular room automation system based on network-connected embedded controllers.
-
-The system is designed around ESP32 devices communicating through MQTT with a local broker.
-
-The first implemented module controls addressable LED strips installed in different parts of the room. Individual lighting zones can be controlled independently, including brightness, color and lighting effects.
-
-The firmware also includes automatic Wi-Fi and MQTT reconnection and publishes device availability information.
-
-The project is designed as a foundation for future integration with environmental sensors, additional actuators and the EVA voice-assistant system.
-
-### Technologies
-
-`ESP32` `C++` `MQTT` `Wi-Fi` `PlatformIO` `Addressable LEDs` `IoT` `Home automation` `CAD` `3D printing`
-
-### Status 🟡 Active development
-
-The first lighting controller is functional and communicates with a local MQTT broker.
-Further SmartRoom modules are planned.
 
 ---
 
@@ -170,7 +122,7 @@ An autonomous environmental monitoring station powered by a battery and photovol
 
 The station collects environmental measurements and sends them wirelessly to a receiver, where the results can be presented through a local web interface.
 
-The project combines sensor integration, wireless communication and low-power operation.
+The project combines sensor integration, wireless communication, photovoltaic power and low-power operation.
 
 I designed the electronics using commercial modules and developed the software responsible for collecting, transmitting and displaying measurement data.
 
@@ -182,9 +134,130 @@ I designed the electronics using commercial modules and developed the software r
 
 ---
 
+## Suntracker – Solar Tracking Powerbank
+
+### Project description
+
+An earlier solar-energy project combining a photovoltaic power bank with automatic panel positioning.
+
+The system uses a microcontroller to measure electrical parameters of the photovoltaic source and control motorized positioning of the panel in search of a more favorable operating point.
+
+The project also included experiments with **Maximum Power Point Tracking (MPPT)** and became an important step toward more advanced solar power-management projects.
+
+Experience gained during development of Suntracker was later used in the development of the newer **Solarbank** project, where the focus shifted toward a more compact custom power-management PCB and microcontroller-controlled charging system.
+
+### Technologies
+
+`STM32` `Photovoltaics` `MPPT` `INA219` `Motor control` `Servo control` `DC motors` `Power electronics` `PCB design`
+
+### Status 🟢 Completed experimental prototype
+
+[Open repository](https://github.com/Wudker/Suntracker)
+
+---
+
+# Work in Progress
+
+The following projects are currently under active development.
+
+---
+
+## Hot_dog – Quadruped Robot
+
+<p align="center">
+  <img src="img/Hot_dog.jpg" alt="Hot_dog Quadruped Robot" width="500">
+</p>
+
+### Project description
+
+A quadruped robotic platform being developed as part of my master's thesis.
+
+The project focuses on the design of a lightweight walking robot with independently controlled legs and a custom parallel leg mechanism.
+
+Development includes mechanical design, inverse kinematics, servo control and validation of individual leg prototypes before and during integration into a complete four-legged platform.
+
+The software calculates the required joint positions from Cartesian target coordinates and controls the servos responsible for reproducing the calculated leg trajectories.
+
+The project is currently progressing from individual leg testing toward coordinated four-leg movement and gait development.
+
+### Technologies
+
+`ESP32` `C/C++` `Inverse kinematics` `Servo control` `Robotics` `Parallel mechanisms` `CAD` `3D printing` `Mechanical prototyping`
+
+### Status 🟡 Work in progress
+
+A functional leg mechanism and first full-body prototype have been developed.
+Current work focuses on multi-leg coordination, gait generation, mechanical refinement and motion control.
+
+[Open repository](https://github.com/Wudker/Hot_dog)
+
+---
+
+## Solarbank – Solar Power Bank
+
+<p align="center">
+  <img src="img/Solarbank.png" alt="Solarbank PCB" width="500">
+</p>
+
+### Project description
+
+A solar-powered power bank combining photovoltaic energy harvesting, battery charging, power conversion and embedded control on a custom PCB.
+
+The system is designed around an STM32 microcontroller responsible for supervising the power-management process, including photovoltaic input monitoring, battery state estimation and control of charging parameters.
+
+The hardware includes dedicated power-conversion stages for the solar input, battery system and regulated USB output.
+
+One of the main development goals is implementation of microcontroller-assisted MPPT control to improve utilization of the connected photovoltaic panel.
+
+The project builds on experience gained during development of the earlier **Suntracker** project, while moving toward a significantly more integrated and compact electronic design.
+
+### Technologies
+
+`STM32U031` `C/C++` `STM32CubeMX` `Power electronics` `MPPT` `Li-Ion battery` `Battery management` `DC/DC converters` `KiCad` `Custom PCB`
+
+### Status 🟡 Work in progress
+
+The schematic and PCB layout have been developed through several design iterations.
+Firmware development, PCB manufacturing and hardware validation form the next stages of the project.
+
+[Open repository](https://github.com/Wudker/Solarbank)
+
+---
+
+## SmartRoom – MQTT Room Automation System
+
+<p align="center">
+  <img src="img/SmartRoom.jpg" alt="SmartRoom Automation System" width="500">
+</p>
+
+### Project description
+
+A modular room-automation platform based on network-connected embedded controllers.
+
+The system uses ESP32 devices communicating through MQTT with a local broker, creating a common communication layer for different sensors and actuators.
+
+The first implemented controller manages multiple addressable LED installations. Lighting zones can be controlled independently, including brightness, color and lighting effects.
+
+The firmware includes automatic Wi-Fi and MQTT reconnection as well as device availability reporting.
+
+The project is intended to gradually integrate lighting, environmental monitoring and other room devices into one local automation platform.
+
+### Technologies
+
+`ESP32` `C++` `MQTT` `Wi-Fi` `PlatformIO` `Addressable LEDs` `IoT` `Home automation` `CAD` `3D printing`
+
+### Status 🟡 Work in progress
+
+The first lighting-control system is functional and communicates with a local MQTT broker.
+Further embedded controllers and integration with the EVA assistant are under development.
+
+[Open repository](https://github.com/Wudker/SmartRoom)
+
+---
+
 # Additional Projects
 
-The projects below were smaller prototypes, experiments or earlier engineering exercises that contributed to the development of my practical electronics and mechatronics skills.
+The projects below include smaller prototypes, experiments and earlier engineering exercises that contributed to the development of my practical electronics, software and mechanical-design skills.
 
 ---
 
@@ -230,6 +303,8 @@ A small Raspberry Pi based voice-assistant prototype integrating a MEMS micropho
 
 The system records a spoken query, processes it using external services and plays back a synthesized voice response.
 
+The project also became an early practical experiment that later influenced the development of the more advanced **EVA** assistant concept.
+
 `Raspberry Pi` `Python` `MEMS microphone` `Audio` `API integration` `Speech synthesis`
 
 **Status:** 🟢 Completed prototype
@@ -246,7 +321,7 @@ An experimental room-automation prototype using RX-2B and TX-2B remote-control i
 
 The project investigated whether inexpensive radio-control chips could be reused as a simple multi-channel home-automation platform.
 
-A working remote-control unit and lighting actuator were built, but the project eventually demonstrated the practical advantages of Wi-Fi based microcontrollers such as the ESP32.
+A working remote-control unit and lighting actuator were built. The experiment also demonstrated the practical advantages of Wi-Fi based microcontrollers for more advanced automation systems and contributed to the later development of SmartRoom.
 
 `RX-2B` `TX-2B` `Control electronics` `Remote control` `Prototyping` `Home automation`
 
@@ -254,25 +329,13 @@ A working remote-control unit and lighting actuator were built, but the project 
 
 ---
 
-# Projects Currently in Development
+# Early-Stage Development
 
-### Modular Laboratory Station
+## EVA – Everyday Virtual Assistant
 
-A modular electronics laboratory platform intended to combine several useful bench instruments in a common mechanical format.
+A voice-assistant platform intended to integrate natural voice interaction with locally controlled embedded devices.
 
-The first module is an adjustable laboratory power supply. Future planned modules include symmetrical voltage generation and waveform generation.
-
-`Power electronics` `CAD` `3D printing` `Laboratory equipment` `Modular design`
-
-[Open repository](https://github.com/Wudker/Modular_lab_station)
-
----
-
-### EVA – Everyday Virtual Assistant
-
-A developing voice-assistant platform intended to integrate voice interaction, local embedded devices and the SmartRoom ecosystem.
-
-The planned architecture uses Raspberry Pi computers for audio processing and higher-level logic, with MQTT used for communication with room devices.
+The planned architecture combines Raspberry Pi computers for audio processing and higher-level logic with MQTT communication to the SmartRoom ecosystem.
 
 `Raspberry Pi` `Python` `MQTT` `Voice interaction` `IoT` `AI integration`
 
@@ -280,7 +343,7 @@ The planned architecture uses Raspberry Pi computers for audio processing and hi
 
 ---
 
-### Modular Cabinet System
+## Modular Cabinet System
 
 A modular storage and furniture concept designed in Autodesk Inventor.
 
