@@ -1,9 +1,3 @@
-# Bartłomiej Dusza – Technical Portfolio
-
-A selection of engineering projects focused on **mechatronics**, **embedded systems**, **electronics**, **robotics** and **PCB design**.
-
-My projects usually combine several engineering areas — from concept development and calculations, through mechanical and electronic design, to embedded software and physical prototyping.
-
 ---
 
 # Selected Projects
@@ -41,8 +35,6 @@ I developed the forward and inverse kinematics, mechanical design requirements, 
 A compact adjustable laboratory power supply developed as the first module of a larger modular electronics workstation.
 
 The project combines power electronics with a custom mechanical enclosure designed for convenient bench use. The current power-supply module has been designed and completed as a standalone device.
-
-The mechanical concept was created with future expansion in mind, allowing additional laboratory modules to use a common design language and form factor.
 
 Planned future modules include a **symmetrical voltage source** and **signal generator**, extending the completed power supply into a larger modular laboratory station.
 
@@ -135,10 +127,11 @@ I designed the electronics using commercial modules and developed the software r
 ---
 
 ## Suntracker – Solar Tracking Powerbank
+<p align="center">
+  <img src="Portfolio/Page3.png" alt="Suntracker" width="500">
+</p>
 
 ### Project description
-
-An earlier solar-energy project combining a photovoltaic power bank with automatic panel positioning.
 
 The system uses a microcontroller to measure electrical parameters of the photovoltaic source and control motorized positioning of the panel in search of a more favorable operating point.
 
@@ -150,7 +143,7 @@ Experience gained during development of Suntracker was later used in the develop
 
 `STM32` `Photovoltaics` `MPPT` `INA219` `Motor control` `Servo control` `DC motors` `Power electronics` `PCB design`
 
-### Status 🟢 Completed experimental prototype
+### Status 🟢 Completed theoretical prototype
 
 [Open repository](https://github.com/Wudker/Suntracker)
 
@@ -164,10 +157,6 @@ The following projects are currently under active development.
 
 ## Hot_dog – Quadruped Robot
 
-<p align="center">
-  <img src="img/Hot_dog.jpg" alt="Hot_dog Quadruped Robot" width="500">
-</p>
-
 ### Project description
 
 A quadruped robotic platform being developed as part of my master's thesis.
@@ -175,8 +164,6 @@ A quadruped robotic platform being developed as part of my master's thesis.
 The project focuses on the design of a lightweight walking robot with independently controlled legs and a custom parallel leg mechanism.
 
 Development includes mechanical design, inverse kinematics, servo control and validation of individual leg prototypes before and during integration into a complete four-legged platform.
-
-The software calculates the required joint positions from Cartesian target coordinates and controls the servos responsible for reproducing the calculated leg trajectories.
 
 The project is currently progressing from individual leg testing toward coordinated four-leg movement and gait development.
 
@@ -225,10 +212,6 @@ Firmware development, PCB manufacturing and hardware validation form the next st
 ---
 
 ## SmartRoom – MQTT Room Automation System
-
-<p align="center">
-  <img src="img/SmartRoom.jpg" alt="SmartRoom Automation System" width="500">
-</p>
 
 ### Project description
 
@@ -289,7 +272,9 @@ The project included signal acquisition, conversion of sensor readings into mass
 
 `Strain gauge` `ADC` `Analog measurements` `Calibration` `Signal filtering` `C/C++`
 
-**Status:** 🟢 Completed prototype
+**Status:** 🟢  Completed
+
+[Open repository](https://github.com/Wudker/Scale)
 
 ---
 
@@ -327,7 +312,20 @@ A working remote-control unit and lighting actuator were built. The experiment a
 
 **Status:** 🟢 Experimental prototype completed
 
+## Modular Cabinet System
+
+A modular storage and furniture concept designed in Autodesk Inventor.
+
+The system is based on interchangeable CAD-designed modules that can be combined into different configurations.
+
+`Autodesk Inventor` `CAD` `Mechanical design` `Modular design`
+**Status:** 🟢  Completed
+
+[Open repository](https://github.com/Wudker/Modular_cabinet)
+
 ---
+
+
 
 # Early-Stage Development
 
@@ -343,17 +341,6 @@ The planned architecture combines Raspberry Pi computers for audio processing an
 
 ---
 
-## Modular Cabinet System
-
-A modular storage and furniture concept designed in Autodesk Inventor.
-
-The system is based on interchangeable CAD-designed modules that can be combined into different configurations.
-
-`Autodesk Inventor` `CAD` `Mechanical design` `Modular design`
-
-[Open repository](https://github.com/Wudker/Modular_cabinet)
-
----
 
 # Main Areas of Interest
 
