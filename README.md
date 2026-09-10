@@ -1,5 +1,3 @@
-# Bartłomiej Dusza
-
 ### Mechatronics · Embedded Systems · Robotics · PCB Design
 
 I develop engineering projects combining **electronics, embedded software, mechanical design and prototyping**.
