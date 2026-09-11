@@ -27,7 +27,7 @@ I developed the forward and inverse kinematics, mechanical design requirements, 
 ## Modular Laboratory Power Supply
 
 <p align="center">
-  <img src="Modular_lab_station/Hardware/Main.png" alt="Modular Laboratory Power Supply" width="500">
+  <img src="Modular_lab_station/Main_power_module/Hardware/Main.png" alt="Modular Laboratory Power Supply" width="500">
 </p>
 
 ### Project description
