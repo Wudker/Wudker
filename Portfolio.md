@@ -27,7 +27,7 @@ I developed the forward and inverse kinematics, mechanical design requirements, 
 ## Modular Laboratory Power Supply
 
 <p align="center">
-  <img src="Modular_lab_station/Main_power_module/Hardware/Main.png" alt="Modular Laboratory Power Supply" width="500">
+  <img src="https://raw.githubusercontent.com/Wudker/Modular_lab_station/main/Main_power_module/Hardware/Main.png" alt="Modular Laboratory Power Supply" width="500">
 </p>
 
 ### Project description
@@ -183,7 +183,7 @@ Current work focuses on multi-leg coordination, gait generation, mechanical refi
 ## Solarbank – Solar Power Bank
 
 <p align="center">
-  <img src="Solarbank/Hardware/PCB/Main.png" alt="Solarbank PCB" width="500">
+  <img src="https://raw.githubusercontent.com/Wudker/Solarbank/main/Hardware/PCB/Main.png" alt="Solarbank PCB" width="500">
 </p>
 
 ### Project description
